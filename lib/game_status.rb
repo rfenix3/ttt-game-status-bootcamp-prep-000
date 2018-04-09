@@ -53,13 +53,12 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
-#  win_combination =won?(board)
-#  if win_combination.nil?
-#    return nil
-#  else
-#    return board[win_combination[0]]
-#  end
+  win_combination =won?(board)
+  if win_combination.nil?
+    return nil
+  else
+    return board[win_combination[0]]
+  end
 end
 
 #    it 'return X when X won' do
