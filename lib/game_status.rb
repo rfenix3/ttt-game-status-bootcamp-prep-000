@@ -60,3 +60,22 @@ def winner(board)
     return board[win_combination[0]]
   end
 end
+
+#    it 'return X when X won' do
+board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+#    expect(winner(board)).to eq("X")
+puts winner(board)
+
+#    it 'returns O when O won' do
+board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"]
+#    expect(winner(board)).to eq("O")
+puts winner(board)
+
+#    it 'returns nil when no winner' do
+#      board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
+
+#      expect(winner(board)).to be_nil
+
+
+
+
