@@ -72,10 +72,9 @@ board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"]
 puts winner(board)
 
 #    it 'returns nil when no winner' do
-#      board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
-
+board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
 #      expect(winner(board)).to be_nil
-
+puts winner(board)
 
 
 
