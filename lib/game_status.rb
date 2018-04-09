@@ -32,7 +32,7 @@ def won?(board)
       return [win_index_1, win_index_2, win_index_3]
     end
   end
-  return false
+  return nil
 end
 
 def full?(board)
