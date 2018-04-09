@@ -54,7 +54,7 @@ end
 
 def winner(board)
   win_combination =won?(board)
-  puts win_combination
+  #puts win_combination
   if win_combination.nil?
     return nil
   else
